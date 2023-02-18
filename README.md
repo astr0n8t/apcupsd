@@ -15,7 +15,7 @@ Next, either download the patched binary from releases here or build from source
 ### Download
 
 ```
-# curl -L https://github.com/bin -o /usr/local/sbin/apcupsd
+# curl -L https://github.com/astr0n8t/apcupsd/releases/download/v1.0/apcupsd-freebsd -o /usr/local/sbin/apcupsd
 ```
 
 ### Compile
