@@ -108,6 +108,8 @@ private:
    int GetIntfDescr(
       unsigned char type, unsigned char index, void *buf, int size);
 
+   int GetIntfDescrLength(unsigned char index);
+
    bool init_device(struct usb_device *dev, const char *serno);
 
    usb_dev_handle *_fd;
